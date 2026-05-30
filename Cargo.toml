@@ -1,0 +1,11 @@
+[package]
+name = "pczt-interop"
+version = "0.1.0"
+edition = "2021"
+description = "Proof of concept: PCZT round-trip, role-boundary, and test-vector generation for cross-implementation interop testing"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+pczt = "0.6.0"
+serde_json = "1"
+hex = "0.4"
